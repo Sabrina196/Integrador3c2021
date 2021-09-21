@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(246, 219, 206);
+    font-family: sans-serif;
+}
+
+/*Contenedor*/ 
+
+.contenedor {
+    margin: 1%;
+    padding: 1%;
+}
+
+/*Header y Navegador*/
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(43, 161, 156);
+}
+
+header {
+    padding: 5px;
+    background-image: url("autoparte.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    background: rgb(196, 173, 243);
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    margin: 5px 30px 5px;
+    padding: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/*Cuerpo*/
+
+.cuerpo {
+    margin: 10px;
+    height: 90%;
+    text-align: center;
+}
+
+/*Artículos*/
+
+.presentacion, .productos {
+    margin: 10px;
+    padding: 3px;
+    text-align: center;
+}
+
+p {
+    width: 70%;
+    margin: auto;
+    padding: 15px;
+    text-align: justify;
+}
+
+/*footer*/
+
+footer {
+    margin-top:50px;
+    width:100%;
+    color: dimgrey;
+}
+
+.pie{
+    text-align: center;
+    font-weight: bold;
+}

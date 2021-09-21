@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.1.1-dist/css/bootstrap.min.css">
+    <title>Formulario ComunidadIT</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Inscripción ComunidadIT</h1>
+        </header>
+        <div>
+            <h2>Datos Generales</h2>
+            <form method="GET">
+                <label for="">Nombre:</label>
+                <input type="text" name="Nombre" value="" required>
+                
+                <label for="">Apellido:</label>
+                <input type="text" name="Apellido" value="" required>
+                
+    
+                <label for="">Fecha de Nac.:</label>
+                <input type="date" name="fecha_nac" max="2999-12-31" required>
+                
+                <label for="">Edad:</label>
+                <input type="number" min="18" max="100" name="edad" value="" required>
+                
+    
+                <label for="">Sexo:</label>
+                <select name="sexo" id="">
+                    <option value="fem">Femenino</option>
+                    <option value="masc">Masculino</option>
+                </select>
+                
+    
+                <label for="">Tipo de Ddocumento:</label>
+                <input type="radio" name="tipo" value="dni">
+                <label for="">DNI</label>  
+                <input type="radio" name="tipo" value="pasaporte">
+                <label for="">Pasaporte</label>   
+                <input type="radio" name="tipo" value="otro">
+                <label for="">Otro</label>
+                
+    
+                <label for="">N° de DNI:</label>
+                <input type="text" name="num_dni">
+                
+                    
+                <label for="">Email:</label>
+                <input type="email" value="" required>
+                
+    
+                <label for="">Celular:</label>
+                <input type="tel" name="celular" required pattern="[0-9]{3}-[0-9]{1}-[0-9]{6}">
+                
+
+                <h3>Estudios:</h3>
+                <select name="estudios">
+                    <option disabled selected>Selecciona una opción</option>
+                    <option value="secu_com">Secundario Completo</option>
+                    <option value="terc_curso">Terciario en curso</option>
+                    <option value="terc_incom">Terciario Incompleto</option>
+                    <option value="terc_comp">Terciario Completo</option>
+                    <option value="uni_curs">Universitario en curso</option>
+                    <option value="uni_inco">Universitario Incompleto</option>
+                    <option value="uni_comp">Universitario completo</option>
+                </select>
+                
+
+                <h3>Trabaja:</h3>
+                <input type="radio" name="opcion" value="si">
+                <label for="">Si</label>
+                <input type="radio" name="opcion" value="no">
+                <label for="">No</label>
+                
+                    
+                <label for="">Donde:</label>
+                <input type="text" name="lugartrabajo" value="">
+                
+                <label for="">Cantidad de Horas semanales:</label>
+                
+                <input type="text" name="horas" value="">
+
+                <h3>Disponibilidad Horaria para el curso:</h3>
+                <input type="radio" name="opcion" value="Mañana">
+                <label for="">Mañana</label>
+                <input type="radio" name="opcion" value="Tarde">
+                <label for="">Tarde</label>
+                <input type="radio" name="opcion" value="Noche">
+                <label for="">Noche</label>
+                
+
+                <h3>Días Disponibles:</h3>
+                <input type="radio" name="opcion" value="Mar_jue">
+                <label for="">Martes y Jueves</label>
+                
+                <input type="radio" name="opcion" value="Lun_vie">
+                <label for="">Lunes y Viernes</label>
+                
+                <input type="radio" name="opcion" value="mier_sab">
+                <label for="">Miércoles y Sábados</label>
+                
+    
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>		
+        </div>
+    </div>
+</body>
+</html>
