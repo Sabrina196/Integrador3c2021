@@ -41,8 +41,7 @@ formu.addEventListener("change", (e)=>{
             var resul = "No se puede dividir por O";
         }
         else {
-            var resul = parseInt(numA.value) / parseInt(numB.value);
-            document.getElementById("resultado").value = resul;  
+            var resul = parseInt(numA.value) / parseInt(numB.value); 
         }    
     }
     document.getElementById("resultado").value = resul;  
