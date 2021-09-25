@@ -1,0 +1,69 @@
+body {
+    background: radial-gradient(circle at 48% 50%, #f5c6ba 0, #f0bcb4 12.5%, #e9afaa 25%, #de9e9d 37.5%, #d0898e 50%, #c17480 62.5%, #b56477 75%, #ab5772 87.5%, #a34f71 100%);
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+
+.contenedor {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+/*cajas*/ 
+
+.caja1, .caja2, .caja3 {
+    height: 400px;
+    width: 500px;
+    padding: 20px;
+    border: 1px outset #f0bcb4;
+}
+
+
+/*header, h1, form, boton*/
+
+header, h2, form {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 60px;
+}
+
+/*label, select e input*/
+
+label, select, input {
+    margin: 5px;
+}
+
+/*Botones*/ 
+
+.contenedorBoton {
+    margin: 15px;
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: cornflowerblue;
+    color: cornsilk;
+}
+
+/*Concatenacion*/
+
+.concatenacion {
+    margin: 2px;
+    padding: 2px;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bold;
+}

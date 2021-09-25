@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Mi primer Práctica con Javascript</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Actividades con Javascript</h1>
+        </header>
+
+        <div class="contenedor">
+        
+            <!--Primer Actividad: Incremento de Número arrancando de 0-->
+    
+            <div class="caja1">
+                <h2>1°Actividad: Incremento de uno en uno</h2>
+                <form action="#" class="formulario1">
+                    <label for="Incrementarnumero">Incrementar Número:</label><br>
+                    <input type="text" name="IncrementoNum" id="num1" value="0" disabled><br>
+                    <div class="contenedorBoton">
+                        <button type="button" id="boton1">incrementar</button>
+                    </div>
+                </form>
+            </div>
+    
+            <!--Segunda Actividad: Operaciones matemática a partir del Ingreso de 2 números-->
+    
+            <div class="caja2">
+                <h2> 2° Act.:Suma, resta, división o Multiplicación</h2>
+                <form action="#" id="formulario2">
+                    <label for="unPrimerNúmero">Escriba un primer número: </label>
+                    <input type="number" name="operando" id="numA"><br>
+                    <label for="EscribaSegundoNúmero">Escriba un Segundo Número: </label>
+                    <input type="number" name="operando2" id="numB"><br>
+                    
+                    <label for="operadores">Tipo de Operación:</label>
+                    <select name="operadores" id="operadoresMath">
+                        <option disabled selected>Seleccione una Operación</option>
+                        <option value="sum">Suma</option>
+                        <option value="res">Resta</option>
+                        <option value="mul">Multiplicación</option>
+                        <option value="div">División</option>
+                    </select> <br>
+
+                    <label for="El resultado">El resultado es: </label>
+                    <input type="numer" name="resultado" id="resultado" disabled>       
+                </form>
+            </div>
+    
+            <!--Tercera Actividad: Concatenación de Nombre y Apellido-->
+    
+            <div class="caja3">
+                <h2>3°Actividad: Concatenación de String</h2>
+                <form action="#" class="formulario3">
+                    <label for="nombre">Ingresa tu Nombre:</label><br>
+                    <input type="text" name="name" id="nombre"><br>
+                    <label for="apellido">Ingresa tu Apellido:</label><br>
+                    <input type="text" name="apell" id="apellido"><br>
+                    <div class="contenedorBoton">
+                        <button type="button" id="boton2">Concatenar</button>
+                    </div>
+
+                    <div class="concatenacion"></div>
+                </form>
+            </div>
+    
+        </div>
+
+    </main>
+    <script src="codigo.js"></script>
+</body>
+</html>
