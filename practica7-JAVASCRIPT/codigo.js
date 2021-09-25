@@ -5,7 +5,9 @@ const btn2 = document.getElementById("boton2");
 
 let numero = document.getElementById("num1").value;
 
-
+let numA = document.getElementById("numA");
+let numB = document.getElementById("numB");
+const formu = document.getElementById("formulario2");
 
 const nombre = document.getElementById("nombre");
 const apellido = document.getElementById("apellido");
@@ -19,9 +21,6 @@ btn1.addEventListener("click", (e)=> {
 })
 
 /*2° actividad*/
-let numA = document.getElementById("numA");
-let numB = document.getElementById("numB");
-const formu = document.getElementById("formulario2");
 
 formu.addEventListener("change", (e)=>{
 	let seleccion = document.getElementById("operadoresMath");
