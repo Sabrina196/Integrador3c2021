@@ -1,0 +1,27 @@
+body {
+    background-image: url("fondo-P.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: #fff;
+}
+
+body, input {
+    font-weight: bold;
+}
+
+.caja2 { 
+    margin: 160px auto;
+    width: 45vh;
+    border-radius: 3%;
+    background: #0e0e17;
+    box-shadow: 2px 2px 8px 3px black;
+}
+
+button {
+    width: 10vh;
+    margin: 2px;
+}
+
+input {
+    font-family: sans-serif;
+}

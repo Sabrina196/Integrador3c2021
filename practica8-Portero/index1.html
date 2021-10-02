@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.1.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilop.css">
+    <title>Mi primer Portero Eléctrico</title>
+
+</head>
+<body>
+   <div class="container teclado">
+
+        <div class="container text-center p-3 caja2">
+            <!--Título-->
+            <div class="row">
+                <div class="col text-center m-1">
+                    <h1>Portero Eléctrico</h1>
+                </div>
+            </div>
+            <!--2 Filas con 2 Columnas: Visor Piso-Dpto-->
+            <div class="row">
+                <div class="col m-2">
+                    <label for="piso" class="form-label">Piso:</label>
+                    <input type="text" id="piso" class="form-control text-center" placeholder="Piso" readonly>
+            </div>
+                <div class="col m-2">
+                    <label for="dpto" class="form-label">Dpto:</label>
+                    <input type="text" id="dpto" class="form-control text-center" placeholder="Dpto" readonly>
+                </div>
+            </div>
+            <!--4 Filas cada una con 3 columnas: Teclado-->
+            <div class="row">
+                <div class="col"><button type="button" class="numeros btn btn-secondary" value="1">1</button></div>
+                <div class="col"><button type="button" class="numeros btn btn-secondary" value="2">2</button></div>
+                <div class="col"><button type="button" class="numeros btn btn-secondary" value="3">3</button></div>
+            </div>
+            <div class="row">
+                <div class="col"><button type="button" class="numeros btn btn-secondary" value="4">4</button></div>
+                <div class="col"><button type="button" class="numeros btn btn-secondary" value="5">5</button></div>
+                <div class="col"><button type="button" class="numeros btn btn-secondary" value="6">6</button> </div>
+            </div>
+            <div class="row">
+                <div class="col"><button type="button" class="numeros btn btn-secondary" value="7">7</button></div>
+                <div class="col"><button type="button" class="numeros btn btn-secondary" value="8">8</button></div>
+                <div class="col"><button type="button" class="numeros btn btn-secondary" value="9">9</button></div>
+            </div>
+            <div class="row">
+                <div class="col"><button type="button" class="numeros btn btn-secondary" value="0">0</button></div>
+                <div class="col"><button type="button" id="llamar" class="btn btn-secondary">Llamar</button></div>
+                <div class="col"><button type="button" id="borrar" class="btn btn-secondary">Borrar</button></div>
+            </div>
+            <!--Fila del Visor de LLamadas-->
+            <div class="row text-center">
+                <div class="col m-2">
+                    <label for="visor"class="form-label">LLamando a:</label>
+                    <input type="text" id="visor" class="form-control text-center" placeholder="LLamando a NN Piso y NN Dpto" readonly>
+                </div>
+            </div>
+        </div>   
+   </div>
+    
+    <script src="codigop.js"></script>
+    <script src="..//bootstrap-5.1.1-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
