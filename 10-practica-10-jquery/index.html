@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Primer Actividad Jquery</title>
+</head>
+<body>
+
+    <div id="contenedor">
+        <h1>Mi primer Actividad con Jquery</h1>
+        <!--Contenedor de las 4 Secciones-->
+        <div id="actividades">
+            <!--1°Seccion: h2, Botón, Artículo con Div-->
+            <section id="act1">
+                <h2>Color-Fondo del Artículo</h2>
+                <button type="button" id="colorF">Cambiar<br>Color</button>
+                <article class="elemento1">
+                    <div id="caja1Act1">
+                        <p>BMW, cuyo significado de sus iniciales es "Bayerische Motoren Werke" en alemán, es una empresa alemana 
+                        multinacional que en la actualidad produce automóviles y motocicletas de lujo, fabricó además motores de aviones hasta 1918.</p>
+                    </div>
+                </article>
+            </section>
+            <!--2°Seccion: h2, Artículo con 10 Botones y un Input-->
+            <section>
+                <h2>Cambiando el color de Fondo</h2>
+                <article id="act4">
+                    <button type="button" class="btnS" id="#cfffa5">0</button>
+                    <button type="button" class="btnS" id="#f9fe61">1</button>
+                    <button type="button" class="btnS" id="#ffc826">2</button>
+                    <button type="button" class="btnS" id="#ff8721">3</button>
+                    <button type="button" class="btnS" id="#ff3852">4</button>
+                    <button type="button" class="btnS" id="#a13ca9">5</button>
+                    <button type="button" class="btnS" id="#cb3d7a">6</button>
+                    <button type="button" class="btnS" id="#d69a73">7</button>
+                    <button type="button" class="btnS" id="#e1da9c">8</button>
+                    <button type="button" class="btnS" id="#deead5">9</button><br>
+                    <label for="input">El valor del botón clickeado es: </label> <br>
+                    <input type="text" name="numClickeado" id="input" readonly>
+                </article>
+            </section>
+
+            <!--3°Seccion: h2, Botón, Div-->
+            <section id="act3">
+                <h2>Agregar un Elemento HTML</h2>
+                <button type="button" id="agregar">Agregar</button>
+                <div id="caja1Act3"></div>
+            </section>
+            <!--4°Seccion: h2, Botón, Artículo con Div(h3-Div-Img-p)-->
+            <section id="act2">
+                <h2>2°-Mostrando o Ocultando elementos</h2>
+                <button type="button" id="btnM">Ocultar</button>
+                <article class="elemento2">
+                    <div id="caja1Act2">
+                        <h3>El mejor auto de la historia</h3>
+                        <div id="imagen"><img src="bmw.jpg" alt="bmw-rojo"></div>
+                        <p>El BMV es uno de los autos calificado como el más lindo del mercado del automotor</p>
+                    </div>
+                </article>
+            </section>            
+        </div>
+    </div>
+       
+    <script src="../jquery-3.6.0.min.js"></script>
+    <script src="codigo.js"></script>
+</body>
+</html>

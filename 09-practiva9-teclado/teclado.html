@@ -1,0 +1,97 @@
+T<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.1.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilost.css">
+    <title>Teclado Básico</title>
+</head>
+<body>
+    <div class="container mt-3 cuerpo">
+
+        <div class="container visor mt-2">
+            <div class="row text-center">
+                <div class="col">
+                    <h1>Teclado Básico</h1>
+                </div>            
+            </div>
+    
+            <div class="row text-center">
+                <div class="col m-2 visor">
+                    <textarea class="form-control" id="display" rows="7" readonly></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="container border mt-3 teclado">
+
+            <div class="row filaUnica p-1">
+                
+                <div class="col parte1">
+                    <div class="row">
+                        <div class="col"><button type="button" value= "1" class="btn btn-dark filaT">1</button></div>
+                        <div class="col"><button type="button" value= "2" class="btn btn-dark filaT">2</button></div>
+                        <div class="col"><button type="button" value= "3" class="btn btn-dark filaT">3</button></div>
+                        <div class="col"><button type="button" value= "4" class="btn btn-dark filaT">4</button></div>
+                        <div class="col"><button type="button" value= "5" class="btn btn-dark filaT">5</button></div>
+                        <div class="col"><button type="button" value= "6" class="btn btn-dark filaT">6</button></div>
+                        <div class="col"><button type="button" value= "7" class="btn btn-dark filaT">7</button></div>
+                        <div class="col"><button type="button" value= "8" class="btn btn-dark filaT">8</button></div>
+                        <div class="col"><button type="button" value= "9" class="btn btn-dark filaT">9</button></div>
+                        <div class="col"><button type="button" value= "0" class="btn btn-dark filaT">0</button></div>
+                        <div class="col"><button type="button" class= "btn btn-dark" id="del">◄--</button></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><button type="button"  value= "Q" class="btn btn-dark filaT">Q</button></div>
+                        <div class="col"><button type="button"  value= "W" class="btn btn-dark filaT">W</button></div>
+                        <div class="col"><button type="button"  value= "E" class="btn btn-dark filaT">E</button></div>
+                        <div class="col"><button type="button"  value= "R" class="btn btn-dark filaT">R</button></div>
+                        <div class="col"><button type="button"  value= "T" class="btn btn-dark filaT">T</button></div>
+                        <div class="col"><button type="button"  value= "Y" class="btn btn-dark filaT">Y</button></div>
+                        <div class="col"><button type="button"  value= "U" class="btn btn-dark filaT">U</button></div>
+                        <div class="col"><button type="button"  value= "I" class="btn btn-dark filaT">I</button></div>
+                        <div class="col"><button type="button"  value= "O" class="btn btn-dark filaT">O</button></div>
+                        <div class="col"><button type="button"  value= "P" class="btn btn-dark filaT">P</button></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><button type="button" value="A"class="btn btn-dark filaT">A</button></div>
+                        <div class="col"><button type="button" value="S"class="btn btn-dark filaT">S</button></div>
+                        <div class="col"><button type="button" value="D"class="btn btn-dark filaT">D</button></div>
+                        <div class="col"><button type="button" value="F"class="btn btn-dark filaT">F</button></div>
+                        <div class="col"><button type="button" value="G"class="btn btn-dark filaT">G</button></div>
+                        <div class="col"><button type="button" value="H"class="btn btn-dark filaT">H</button></div>
+                        <div class="col"><button type="button" value="J"class="btn btn-dark filaT">J</button></div>
+                        <div class="col"><button type="button" value="K"class="btn btn-dark filaT">K</button></div>
+                        <div class="col"><button type="button" value="L"class="btn btn-dark filaT">L</button></div>
+                        <div class="col"><button type="button" value="Ñ"class="btn btn-dark filaT">Ñ</button></div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><button type="button" value= "Z"class="btn btn-dark filaT">Z</button></div>
+                        <div class="col"><button type="button" value= "X"class="btn btn-dark filaT">X</button></div>
+                        <div class="col"><button type="button" value= "C"class="btn btn-dark filaT">C</button></div>
+                        <div class="col"><button type="button" value= "V"class="btn btn-dark filaT">V</button></div>
+                        <div class="col"><button type="button" value= "B"class="btn btn-dark filaT">B</button></div>
+                        <div class="col"><button type="button" value= "N"class="btn btn-dark filaT">N</button></div>
+                        <div class="col"><button type="button" value= "M"class="btn btn-dark filaT">M</button></div>
+                        <div class="col"><button type="button" value= ","class="btn btn-dark filaT">,</button></div>
+                        <div class="col"><button type="button" value= "."class="btn btn-dark filaT">.</button></div>
+                        <div class="col"><button type="button" value= "-"class="btn btn-dark filaT">-</button></div>
+                        <div class="col"><button type="button" class= "btn btn-dark" id="borrarTodo">Limpiar</button></div>     
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button type="button" value="  " class="btn btn-dark filaT">Espacio</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="../bootstrap-5.1.1-dist/js/bootstrap.bundle.js"></script>
+    <script src="codigot.js"></script>
+</body>
+</html>
