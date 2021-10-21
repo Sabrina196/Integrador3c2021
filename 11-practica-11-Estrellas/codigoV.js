@@ -26,7 +26,7 @@ $(document).ready(function () {
  
         },
         click: function(){
-            iluminar($(this).index()+ 2);
+            iluminar($(this).index()+ 1);
             numDeLuces = $(this).index();
             let puntuacion = $(this).attr('value');
             $(".calificacion").text(puntuacion);
