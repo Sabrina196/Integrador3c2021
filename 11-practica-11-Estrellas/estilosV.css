@@ -1,0 +1,61 @@
+body {
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 10px;
+}
+
+header {
+    padding: 10px;
+    background-color: crimson;
+}
+
+/*Caja principal*/
+.pelicula {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border: 1px solid #333;
+}
+
+/*Caja con Imagen*/
+.imagen {
+    border: 1px solid #333;
+}
+
+img {
+    width: 100%;
+    max-width: 350px;
+    max-height: 400px; 
+    object-fit: cover;
+}
+
+/*Caja con Descripción*/
+.descripcion {
+    padding: 15px;
+    border: 1px solid #333; 
+}
+
+p {
+    text-align: justify;
+}
+
+ /*Caja Valoración*/
+.valoracion {
+    margin-top: 40px;
+}
+
+.estrellas {
+    cursor: pointer;
+}
+
+
+

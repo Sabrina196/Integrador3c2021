@@ -1,0 +1,16 @@
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\bin\Debug\net5.0\Actividad-13.exe
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\bin\Debug\net5.0\Actividad-13.deps.json
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\bin\Debug\net5.0\Actividad-13.runtimeconfig.json
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\bin\Debug\net5.0\Actividad-13.runtimeconfig.dev.json
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\bin\Debug\net5.0\Actividad-13.dll
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\bin\Debug\net5.0\ref\Actividad-13.dll
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\bin\Debug\net5.0\Actividad-13.pdb
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\obj\Debug\net5.0\Actividad-13.csproj.AssemblyReference.cache
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\obj\Debug\net5.0\Actividad-13.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\obj\Debug\net5.0\Actividad-13.AssemblyInfoInputs.cache
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\obj\Debug\net5.0\Actividad-13.AssemblyInfo.cs
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\obj\Debug\net5.0\Actividad-13.csproj.CoreCompileInputs.cache
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\obj\Debug\net5.0\Actividad-13.dll
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\obj\Debug\net5.0\ref\Actividad-13.dll
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\obj\Debug\net5.0\Actividad-13.pdb
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\Actividad-13\obj\Debug\net5.0\Actividad-13.genruntimeconfig.cache

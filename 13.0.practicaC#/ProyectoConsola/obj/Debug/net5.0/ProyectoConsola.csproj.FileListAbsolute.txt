@@ -1,0 +1,56 @@
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.exe
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.deps.json
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.runtimeconfig.json
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.runtimeconfig.dev.json
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.dll
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\bin\Debug\net5.0\ref\ProyectoConsola.dll
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.pdb
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.csproj.AssemblyReference.cache
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.AssemblyInfoInputs.cache
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.AssemblyInfo.cs
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.csproj.CoreCompileInputs.cache
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.dll
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\obj\Debug\net5.0\ref\ProyectoConsola.dll
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.pdb
+D:\Documentos\ComIT\Comunidad IT\13-App-Web\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.genruntimeconfig.cache
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.csproj.AssemblyReference.cache
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.AssemblyInfoInputs.cache
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.AssemblyInfo.cs
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.csproj.CoreCompileInputs.cache
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.dll
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\obj\Debug\net5.0\ref\ProyectoConsola.dll
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.pdb
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.exe
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.deps.json
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.runtimeconfig.json
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.runtimeconfig.dev.json
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.dll
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\bin\Debug\net5.0\ref\ProyectoConsola.dll
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.pdb
+D:\Documentos\ComIT\Comunidad IT\13-practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.genruntimeconfig.cache
+D:\Documentos\ComIT\ComunidadIT\13.0.practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.csproj.AssemblyReference.cache
+D:\Documentos\ComIT\ComunidadIT\13.0.practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\ComIT\ComunidadIT\13.0.practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.AssemblyInfoInputs.cache
+D:\Documentos\ComIT\ComunidadIT\13.0.practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.AssemblyInfo.cs
+D:\Documentos\ComIT\ComunidadIT\13.0.practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.csproj.CoreCompileInputs.cache
+D:\Documentos\ComIT\ComunidadIT\13.0.practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.dll
+D:\Documentos\ComIT\ComunidadIT\13.0.practica C#\ProyectoConsola\obj\Debug\net5.0\ref\ProyectoConsola.dll
+D:\Documentos\ComIT\ComunidadIT\13.0.practica C#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.pdb
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.csproj.AssemblyReference.cache
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.AssemblyInfoInputs.cache
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.AssemblyInfo.cs
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.csproj.CoreCompileInputs.cache
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.dll
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\obj\Debug\net5.0\ref\ProyectoConsola.dll
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.pdb
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.exe
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.deps.json
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.runtimeconfig.json
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.runtimeconfig.dev.json
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.dll
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\bin\Debug\net5.0\ref\ProyectoConsola.dll
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\bin\Debug\net5.0\ProyectoConsola.pdb
+D:\Documentos\ComIT\ComunidadIT\13.0.practicaC#\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.genruntimeconfig.cache
