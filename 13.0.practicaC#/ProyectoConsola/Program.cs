@@ -70,7 +70,7 @@ using System.Collections.Generic;
 //edad1 = null;
 //Se utiliza para Base de Datos, cuando no es obligación completar un campo;
 
-//CLASE 19/10;
+//*******CLASE 19/10;
 
 //int edadP = 20;
 
@@ -126,3 +126,97 @@ using System.Collections.Generic;
 //{
     //Console.WriteLine(elemento);
 //};
+
+//******CLASE 21/10:Metodos o funcion
+
+//string Saludar (string nombre, string apellido){ //=> Declaro el metodo y el tipo de datos tanto del metodo como de los parametros;
+
+    //string respuestaSaludo = $"Hola {nombre} {apellido}";
+    //return respuestaSaludo; //=> Retorna que va a contener el valor de esta variable;
+//}
+//string respuesta = (Saludar("Juana", "DeArco"));
+//MostrarMensaje(respuesta);
+
+//void MostrarMensaje(string mensaje){ //=> Para que no devuelva nada, usamos void
+    //Console.WriteLine(mensaje);
+//}
+
+//*****TEMA NUEVO: OBJETOS*****;
+
+//Definir una clase;
+
+//Instanciar = Clase NombreVarible = new clase();
+//vehiculo vehiculoUno = new vehiculo(); //=> Primero instanciar por la consola (no lo toma);
+//vehiculoUno.Color = "Rojo";
+//vehiculoUno.Año = 2005;
+//vehiculoUno.CantidadRuedas = 2;
+//vehiculoUno.Arrancar();
+//Console.WriteLine(vehiculoUno.ObtenerEstado());
+//vehiculoUno.Apagar();
+//Console.WriteLine(vehiculoUno.ObtenerEstado());
+
+//public class vehiculo {
+    //public string Color = "";
+    //public string Marca = "";
+    //public short CantidadRuedas = 0;
+    //public short Año = 0;
+    //private bool EnUso = false;
+
+    //public void Acelerar() {}   //=> Con esta palabra creamos la funcion/metodo;
+    //public void Frena(){}
+    //public void Arrancar(){
+        //EnUso = true;
+    //}
+    //public void Apagar(){
+        //EnUso = false;
+    //}
+    //public string ObtenerEstado(){
+        //string estado;
+        //if (EnUso){
+            //estado = $"El vehiculo {Color} esta en uso y prendido";
+        //}
+        //else {
+            //estado = $"El vehiculo {Color} esta libre y apagado";
+        //}
+        //return estado;
+    //}
+
+//}
+
+public class libro {
+    public string TituloLibro = ""; 
+    public string Autor = "";
+    public int NumeroDeCopias = 0;
+    public int NumeroDePrestamos = 0;
+    private bool Prestado = false;
+
+     public libro(string tituloLibro, string autor, short numeroDeCopias, short numeroDePrestamos){
+
+        TituloLibro = tituloLibro;
+        Autor = autor;
+        NumeroDeCopias = numeroDeCopias;
+        NumeroDePrestamos = numeroDePrestamos;
+    }
+
+    public void PrestarLibro(){
+        if(NumeroDePrestamos <= NumeroDeCopias ){
+            NumeroDePrestamos = NumeroDePrestamos + 1;
+            Prestado = true;
+        }
+        else {
+            Prestado = false;
+        }
+        return;
+    }
+    public void DevolverLibro(){}
+        
+    public void MostrarDatos(){
+
+    }
+
+}
+
+
+
+
+
