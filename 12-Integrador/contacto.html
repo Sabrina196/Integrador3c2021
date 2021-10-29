@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="../bootstrap-5.1.1-dist/css/bootstrap.min.css">
+  <title>contacto</title>
+</head>
+
+<body id="cuerpoContacto">
+  <!--Nav con 2 Div: Logo y Enlace para volver al Buscador-->
+  <nav class="navbar navbar-dark bg-dark text-center">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-3" href="#">
+        <img src="logo.png" alt="Logo" width="55" height="55">
+      </a>
+
+      <div class="d-flex mx-auto">
+        <a class="navbar-brand text-danger"  href="index.html">Ir al Buscador</a>
+      </div>
+    </div>
+  </nav>
+  <!--Div con 4 Filas-->
+  <div class="container p-3" id="contenedorContacto">
+    <!--Fila 1=> 2 Columnas: Nombre y Apellido-->
+    <div class="row">
+
+      <div class="col mb-3">
+        <label for="nombre" class="form-label bg-dark p-2">Nombre:</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+      </div>
+
+      <div class="col mb-3">
+        <label for="apellido" class="form-label bg-dark p-2">Apellido</label>
+        <input type="text" class="form-control" id="apellido" placeholder="Apellido" required>
+      </div>
+     
+    </div>
+    <!--Fila 2 => 2 Columnas: Teléfono y email-->
+    <div class="row">
+
+      <div class="col mb-3">
+        <label for="telefono" class="form-label bg-dark p-2">Teléfono</label>
+        <input type="text" class="form-control" id="telefono"  placeholder="11-12345678" required>
+      </div>
+
+      <div class="col mb-3">
+        <label for="email" class="form-label bg-dark p-2">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="nombre@example.com" required>
+      </div>
+
+    </div>
+    <!-- Fila 3=> Columna de textarea-->
+    <div class="row">
+      <div class="col mb-3">
+        <label for="detalle" class="form-label bg-dark p-2">Detalle</label>
+        <textarea class="form-control" id="detalle" rows="6" required></textarea>
+      </div>
+    </div>
+    <!-- Fila 4=> Botón-->
+    <form class="d-flex mx-auto">
+      <button class="btn btn-outline-danger" id="enviarDatos" type="button"><strong>ENVIAR</strong></button>
+    </form>
+    <!--Fila reservada para cuando se completan de manera incorrecta los Input-->
+    <div class="row">
+      <div class="col text-center" id="mensaje">
+
+      </div>
+
+    </div>
+  </div>
+  <!--Div que se muestra después de enviar el mensaje-->
+  <div class="container text-center p-3" id="contenedorSecundario">
+      
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="../jquery-3.6.0.min.js"></script>
+  <script src="script2.js"></script>
+  <script src="../bootstrap-5.1.1-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

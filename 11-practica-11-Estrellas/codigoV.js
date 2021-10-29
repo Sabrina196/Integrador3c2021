@@ -10,7 +10,7 @@ $(document).ready(function () {
         $(item).each(function(index) {
             if(bandera){
                 if(index < numDeLuces){
-                    $(this).css("color", "yellow");
+                    $(this).css("color", "#ffcd56");
                 }
                 else {
                     $(this).css('color', 'white');
