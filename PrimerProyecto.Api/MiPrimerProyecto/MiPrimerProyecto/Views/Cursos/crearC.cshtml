@@ -1,0 +1,82 @@
+
+
+<h2 class="text-info text-center mb-2">Crear Curso</h2>
+<div class="container border">
+    <form action="@Url.Action("guardarC", "Cursos")" method="post">
+
+        <div class="container m-3">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="Comision">Comision:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="Comision" placeholder=" Por Ejemplo 1ºB">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="materia">Materia:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="materia">
+                    </div>
+                </div>
+            </div>
+                <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="dias">Dias:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="dias" placeholder="Ejemplo martes-jueves">
+                    </div>
+                </div>
+            </div>
+                <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="horario">Horario:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="horario" placeholder="Ejemplo 10-12 - 14-16">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="colegio">Colegio:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="colegio">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="añoLectivo">Año Lectivo:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="int" name="añoLectivo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row text-center">
+                    <div class="col-sm-6">
+                        <input asp-action="guardarC" asp-controller="Cursos" type="submit" class="btn btn-success m-2" value="Crear Curso"></input>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div>

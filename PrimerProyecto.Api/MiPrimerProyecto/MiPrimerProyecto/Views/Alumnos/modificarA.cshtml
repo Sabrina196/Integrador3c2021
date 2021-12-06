@@ -1,0 +1,43 @@
+@model Alumno
+
+
+<h2 class="text-info text-center mb-2 text-danger">Modificar Curso</h2>
+<div class="container border">
+    <form action="@Url.Action("actualizarA", "Alumnos")" method="get">
+        <input type="number" name="id" asp-for="ID" hidden>
+        <div class="container m-3">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="nom">Nombre:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="nom" asp-for="Nombre">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="ape">Apellido:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="ape" asp-for="Apellido">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row text-center">
+                    <div class="col-sm-6">
+                        <input type="submit" class="btn btn-success m-2" value="Modificar"></input>
+                        <a asp-action="listaAlumnos" asp-controller="Alumnos" class="btn btn-primary me-md-2">Cancelar</a>
+                    </div>
+                </div>
+            </div>
+   
+        </div>
+
+    </form>
+</div>

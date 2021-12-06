@@ -191,11 +191,13 @@ libroA.Autor = "Pedro Calderón de la Barca";
 libroA.CopiasDisponibles = 3;
 libroA.NumeroPrestados = 0;
 
+
 libro libroB = new libro();
 libroB.TituloLibro = "Hamlet";
 libroB.Autor = "William Shakespeare";
 libroB.CopiasDisponibles = 6;
 libroB.NumeroPrestados = 0;
+
 
 libro libroC = new libro();
 libroC.TituloLibro = "El Gaucho Martín Fierro";
@@ -203,58 +205,14 @@ libroC.Autor = "Jose Hernández";
 libroC.CopiasDisponibles = 9;
 libroC.NumeroPrestados = 0;
 
+
 libro libroD = new libro();
 libroD.TituloLibro = "El principito";
 libroD.Autor ="Antoine de Saint-Exupéry";
 libroD.CopiasDisponibles = 5;
 libroD.NumeroPrestados = 0;
 
-public class libro {
-    public string TituloLibro = ""; 
-    public string Autor = "";
-    public int NumeroPrestados = 0;
-    public int CopiasDisponibles = 0;
-  
 
-
-    ////public libro(string tituloLibro, string autor, short numeroDeCopias, short numeroDePrestamos){
-
-        //TituloLibro = tituloLibro;
-        //Autor = autor;
-        //NumeroDeCopias = numeroDeCopias;
-        //NumeroDePrestamos = numeroDePrestamos;
-    //}
-
-    public bool PrestarLibro(){
-        bool Prestado;
-        if(NumeroPrestados != CopiasDisponibles){
-            NumeroPrestados = NumeroPrestados + 1;
-            Prestado = true;
-        }
-        else {
-            Prestado = false;
-        }
-        return Prestado;
-    }
-    public bool DevolverLibro(){
-        bool devolver;
-        if( NumeroPrestados == CopiasDisponibles || NumeroPrestados != 0){
-            NumeroPrestados = NumeroPrestados - 1;
-            devolver = true;
-        }
-        else {
-            devolver = false;
-        }
-        return devolver;
-    }       
-    public void MostrarLibroAutor(){
-        
-    }
-    public void MostrarCopiasPrestados(){
-       
-    }
-
-};
 
 
 

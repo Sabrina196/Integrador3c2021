@@ -2,7 +2,7 @@ $(document).ready(function () {
     
     let bandera = true;
     let bandera2 = true;
-    let bander3 = true;
+    let bandera3 = true;
     /*Cambiar color de fondo de otro Elemento*/
     $("#colorF").on("click", function(){
         if(bandera){

@@ -1,0 +1,87 @@
+@model Curso
+
+
+<h2 class="text-info text-center mb-2 text-danger">Modificar Curso</h2>
+<div class="container border">
+    <form action="@Url.Action("actualizar", "Cursos")" method="get">
+        <input type="number" name="id" asp-for="ID" hidden>
+        <div class="container m-3">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="Comi">Comision:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="Comi" asp-for="Comision">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="mat">Materia:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="mat" asp-for="Materia">
+                    </div>
+                </div>
+            </div>
+                <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="di">Dias:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="di" asp-for="Dias">
+                    </div>
+                </div>
+            </div>
+                <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="hs">Horario:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="hs" asp-for="Horario">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="cole">Colegio:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" name="cole" asp-for="Colegio">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label for="aL">Año Lectivo:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="int" name="aL" asp-for="AñoLectivo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row text-center">
+                    <div class="col-sm-6">
+                        <input type="submit" class="btn btn-success m-2" value="Modificar"></input>
+                        <a asp-action="listaCursos" asp-controller="Cursos" class="btn btn-primary me-md-2">Cancelar</a>
+                    </div>
+                </div>
+            </div>
+   
+        </div>
+
+    </form>
+</div>
+
+

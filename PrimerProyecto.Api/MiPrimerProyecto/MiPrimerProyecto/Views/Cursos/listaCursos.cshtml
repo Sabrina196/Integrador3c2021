@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = "Lista de Cursos";
+}
+@model List<Curso>
+
+<a asp-action="index" asp-controller="Cursos" class="btn btn-primary me-md-2">Volver a Cursos</a>
+
+<br>
+<h2 class="text-center mt-3 text-info">Lista de Cursos</h2>
+<br>
+        <table class="table mt-3 text-center">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Comision</th>
+                    <th>Materia</th>
+                    <th>Dias</th>
+                    <th>Horario</th>
+                    <th>Colegio</th>
+                    <th>Año Lectivo</th>
+                    <th><i class="fas fa-edit"></i></th> 
+                    <th><i class="fas fa-user-graduate"></i></th>
+                    <th><i class="fas fa-trash-alt"></i></th>            
+                </tr>
+            </thead>
+            <tbody>
+                    @foreach (var item in @Model)
+                    {  
+                        <tr>
+                            <td>@item.ID</td>
+                            <td>@item.Comision</td>
+                            <td>@item.Materia</td>
+                            <td>@item.Dias</td>
+                            <td>@item.Horario</td>
+                            <td>@item.Colegio</td>
+                            <td>@item.AñoLectivo</td>
+                            <td><a asp-action="modificar" asp-controller = "Cursos" asp-route-id="@item.ID" class="btn btn-warning me-md-2">Editar</a></td> 
+                            <td><a asp-action="indexN" asp-controller="Notas" asp-route-id="@item.ID" class="btn btn-info me-md-2">Lista de Alumnos</a></td> 
+                            <td><a asp-action="Eliminar" asp-controller="Cursos" asp-route-id="@item.ID" class="btn btn-danger me-md-2">Eliminar</a></td>  
+                        </tr> 
+                    }
+                
+
+            </tbody>
+        </table> 

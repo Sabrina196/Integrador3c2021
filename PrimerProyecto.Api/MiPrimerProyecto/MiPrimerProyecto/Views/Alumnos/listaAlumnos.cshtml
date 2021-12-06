@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Lista de Alumnos";
+}
+@model List<Alumno>
+
+<a asp-action="index" asp-controller="Alumnos" class="btn btn-primary me-md-2">Volver</a>
+
+<br>
+<h2 class="text-center mt-3 text-info">Lista de Alumnos</h2>
+<br>
+        <table class="table mt-3 text-center">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th><i class="fas fa-edit"></i></th> 
+                    <th><i class="fas fa-list-alt"></i></th> 
+                    <th><i class="fas fa-trash-alt"></i></th>            
+                </tr>
+            </thead>
+            <tbody>
+                    @foreach (var item in @Model)
+                    {  
+                        <tr>
+                            <td>@item.ID</td>
+                            <td>@item.Nombre</td>
+                            <td>@item.Apellido</td>
+                            <td><a asp-action="modificarA" asp-controller = "Alumnos" asp-route-id="@item.ID" class="btn btn-warning me-md-2">Editar</a></td> 
+                            <td><a asp-action="indexN" asp-controller="Notas" asp-route-id="IdA= @item.ID" class="btn btn-info me-md-2">Notas</a></td>  
+                            <td><a asp-action="EliminarA" asp-controller="Alumnos" asp-route-id="@item.ID" class="btn btn-danger me-md-2">Eliminar</a></td>  
+                        </tr> 
+                    }
+                
+            </tbody>
+        </table> 

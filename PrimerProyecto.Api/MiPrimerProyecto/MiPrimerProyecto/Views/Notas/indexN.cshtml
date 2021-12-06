@@ -1,0 +1,48 @@
+@{
+    ViewData["Title"] = "Calificaciones";
+}
+
+@model List<Nota>
+
+<div class="mb-4">
+    <a asp-action="crearA" asp-controller="Alumnos" class="btn btn-success me-md-2">Crear Alumno</a><br>
+</div>
+<div class="mt-4">
+    <a asp-action="listaCursos" asp-controller="Cursos" class="btn btn-primary me-md-2">Ir a Lista Cursos</a>
+</div>
+
+
+<br>
+<h2 class="text-center mt-3 text-info">Calificaciones</h2>
+<br>
+        <table class="table mt-3 text-center bg-light">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Nombre Curso</th>
+                    <th>1° Examen</th>
+                    <th>1° <br>Recuperatorio</th>
+                    <th>2° Examen</th>
+                    <th>2° <br>Recuperatorio</th>
+                    <th>N° de TP</th>
+                    <th>TP <br>Entregados</th>
+                    <th><i class="fas fa-edit"></i></th> 
+                    <th><i class="fas fa-list-alt"></i></th> 
+                    <th><i class="fas fa-trash-alt"></i></th>            
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in @Model)
+                {
+                   <tr>
+                       <td>@item.CursoID</td>
+                       <td>@item.Curso</td>
+                       <td>@item.AlumnoID</td>
+                       <td>@item.Alumno</td>
+                   </tr> 
+                }
+            
+            </tbody>
+        </table> 

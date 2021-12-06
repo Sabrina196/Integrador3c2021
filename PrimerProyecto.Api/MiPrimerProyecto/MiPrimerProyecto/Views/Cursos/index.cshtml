@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Cursos";
+}
+
+<br>
+<div class="container row m-3 p-3 mt-4 text-center border bg-light">
+    <div class="col-6">
+        <h2 class="text-info">Tus Cursos</h2>
+    </div>
+    <div class="col-6">
+        <a asp-action="crearC" asp-controller="Cursos" class="btn btn-primary me-md-2">Crear Nuevo Curso</a>
+    </div>
+</div>
+
+<br>
+<div class="container row m-3 p-3 mt-4 text-center border bg-light">
+    <div class="col-6">
+        <h2 class="text-info">Listas de Cursos</h2>
+    </div>
+    <div class="col-6">
+        <a asp-action="listaCursos" asp-controller="Cursos" class="btn btn-primary me-md-2">Ir a tus Listas</a>
+    </div>
+</div>
+
+      
+

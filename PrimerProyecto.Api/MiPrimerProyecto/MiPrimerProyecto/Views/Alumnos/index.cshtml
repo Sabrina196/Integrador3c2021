@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Alumnos";
+}
+
+<br>
+<div class="container row m-3 p-3 mt-4 text-center border bg-light">
+    <div class="col-6">
+        <h2 class="text-primary">Alumnos</h2>
+    </div>
+    <div class="col-6">
+        <a asp-action="crearA" asp-controller="Alumnos" class="btn btn-primary me-md-2">Crear Nuevo Alumno</a>
+    </div>
+</div>
+<br>
+<div class="container row m-3 p-3 mt-4 text-center border bg-light">
+    <div class="col-6">
+        <h2 class="text-primary">Listas de Alumnos</h2>
+    </div>
+    <div class="col-6">
+        <a asp-action="listaAlumnos" asp-controller="Alumnos" class="btn btn-primary me-md-2">Ver Listado</a>
+    </div>
+</div>
