@@ -1,0 +1,22 @@
+@model List<Especialidad>
+
+<h1>Especialidades</h1>
+
+<div class="container">
+    <a asp-action="Create" asp-controller="Especialidades">Nueva</a>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Denominacion</th>
+        </tr>
+        @foreach (var item in @Model)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.Denominacion</td>
+                <td><a asp-action="Editar" asp-controller="Especialidades" asp-route-id="@item.ID">Editar</a></td>
+            </tr>
+        }
+    </table>
+</div>

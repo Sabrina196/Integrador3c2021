@@ -72,9 +72,9 @@ body {
  
 /*Fondo Estilo*/
 
-/*body {
+#cuerpoPrincipal {
   background-image:url("fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: sans-serif;
-}*/
+}

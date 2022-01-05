@@ -15634,8 +15634,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Documentos\\ComIT\\ComunidadIT\\PrimerProyecto.Api\\MiPrimerProyecto\\MiPrimerProyecto\\Views\\Cursos\\guardar.cshtml",
-      "TargetPath": "Views\\Cursos\\guardar.cshtml",
+      "FilePath": "d:\\Documentos\\ComIT\\ComunidadIT\\PrimerProyecto.Api\\MiPrimerProyecto\\MiPrimerProyecto\\Views\\Notas\\modificarN.cshtml",
+      "TargetPath": "Views\\Notas\\modificarN.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15716,6 +15716,11 @@
     {
       "FilePath": "d:\\Documentos\\ComIT\\ComunidadIT\\PrimerProyecto.Api\\MiPrimerProyecto\\MiPrimerProyecto\\Views\\Cursos\\listaCursos.cshtml",
       "TargetPath": "Views\\Cursos\\listaCursos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Documentos\\ComIT\\ComunidadIT\\PrimerProyecto.Api\\MiPrimerProyecto\\MiPrimerProyecto\\Views\\Notas\\CrearN.cshtml",
+      "TargetPath": "Views\\Notas\\CrearN.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -167,7 +167,6 @@ D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProy
 D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProyecto\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProyecto\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProyecto\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\net5.0\Razor\Views\Cursos\guardar.cshtml.g.cs
 D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\net5.0\Razor\Views\Cursos\listaCursos.cshtml.g.cs
 D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\net5.0\Razor\Views\Cursos\crearC.cshtml.g.cs
 D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\net5.0\Razor\Views\Alumnos\listaAlumnos.cshtml.g.cs
@@ -175,3 +174,5 @@ D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProy
 D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\net5.0\Razor\Views\Alumnos\crearA.cshtml.g.cs
 D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\net5.0\Razor\Views\Alumnos\modificarA.cshtml.g.cs
 D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\net5.0\Razor\Views\Notas\indexN.cshtml.g.cs
+D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\net5.0\Razor\Views\Notas\CrearN.cshtml.g.cs
+D:\Documentos\ComIT\ComunidadIT\PrimerProyecto.Api\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\net5.0\Razor\Views\Notas\modificarN.cshtml.g.cs

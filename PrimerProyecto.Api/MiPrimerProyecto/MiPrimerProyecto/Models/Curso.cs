@@ -2,6 +2,8 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+
 
 
 namespace MiPrimerProyecto.Models 
@@ -20,5 +22,6 @@ namespace MiPrimerProyecto.Models
         public string Colegio { get; set;}
         [Required]
         public int AñoLectivo { get; set;}
+
     }
 }

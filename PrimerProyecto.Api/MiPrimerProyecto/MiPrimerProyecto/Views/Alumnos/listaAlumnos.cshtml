@@ -15,7 +15,8 @@
                     <th>Nombre</th>
                     <th>Apellido</th>
                     <th><i class="fas fa-edit"></i></th> 
-                    <th><i class="fas fa-list-alt"></i></th> 
+                    <th><i class="fas fa-user-graduate"></i></th> 
+                    <th><i class="fas fa-list-alt"></i></th>
                     <th><i class="fas fa-trash-alt"></i></th>            
                 </tr>
             </thead>
@@ -27,7 +28,8 @@
                             <td>@item.Nombre</td>
                             <td>@item.Apellido</td>
                             <td><a asp-action="modificarA" asp-controller = "Alumnos" asp-route-id="@item.ID" class="btn btn-warning me-md-2">Editar</a></td> 
-                            <td><a asp-action="indexN" asp-controller="Notas" asp-route-id="IdA= @item.ID" class="btn btn-info me-md-2">Notas</a></td>  
+                            <td><a asp-action="CrearN" asp-controller="Notas" asp-route-id="@item.ID" class="btn btn-success me-md-2">Agregarlo a Curso</a></td> 
+                            <td><a asp-action="IndexN" asp-controller="Notas" asp-route-id="@item.ID" class="btn btn-info me-md-2">Calificar</a></td>   
                             <td><a asp-action="EliminarA" asp-controller="Alumnos" asp-route-id="@item.ID" class="btn btn-danger me-md-2">Eliminar</a></td>  
                         </tr> 
                     }

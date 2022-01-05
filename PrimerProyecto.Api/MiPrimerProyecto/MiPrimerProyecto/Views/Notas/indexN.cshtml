@@ -1,48 +1,52 @@
-@{
-    ViewData["Title"] = "Calificaciones";
-}
-
 @model List<Nota>
 
-<div class="mb-4">
-    <a asp-action="crearA" asp-controller="Alumnos" class="btn btn-success me-md-2">Crear Alumno</a><br>
+<div class="row text-center m-5 mx-auto">
+    <div class="col-6">
+    <a asp-action="crearA" asp-controller="Alumnos" class="btn btn-success me-md-2">Crear Nuevo Alumno</a>
 </div>
-<div class="mt-4">
-    <a asp-action="listaCursos" asp-controller="Cursos" class="btn btn-primary me-md-2">Ir a Lista Cursos</a>
+
+<div class="col-6">
+    <a asp-action="listaAlumnos" asp-controller="Alumnos" class="btn btn-info me-md-2">Lista de Alumnos</a>
+</div>
 </div>
 
 
-<br>
-<h2 class="text-center mt-3 text-info">Calificaciones</h2>
-<br>
-        <table class="table mt-3 text-center bg-light">
+<h1 class="text-center m-5">Calificaciones</h1>
+
+<table class="table table-bordered mt-3 text-center ">
             <thead>
                 <tr>
-                    <th>#</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Nombre Curso</th>
-                    <th>1° Examen</th>
-                    <th>1° <br>Recuperatorio</th>
-                    <th>2° Examen</th>
-                    <th>2° <br>Recuperatorio</th>
-                    <th>N° de TP</th>
-                    <th>TP <br>Entregados</th>
+                    <th hidden>#</th>
+                    <th>ID Curso</th>
+                    <th>ID Alumno</th>
+                    <th>1° Nota</th>
+                    <th>1° Recuperatorio</th>
+                    <th>2° Nota</th>
+                    <th>2° Recuperatorio</th>
+                    <th>N° TP</th>
+                    <th>TP Entregados</th> 
                     <th><i class="fas fa-edit"></i></th> 
-                    <th><i class="fas fa-list-alt"></i></th> 
-                    <th><i class="fas fa-trash-alt"></i></th>            
+                    <th><i class="fas fa-trash-alt"></i></th>               
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in @Model)
-                {
-                   <tr>
-                       <td>@item.CursoID</td>
-                       <td>@item.Curso</td>
-                       <td>@item.AlumnoID</td>
-                       <td>@item.Alumno</td>
-                   </tr> 
-                }
-            
+                    @foreach (var item in @Model)
+                    {  
+                        <tr>
+                            <td hidden>@item.ID</td>
+                            <td>@item.CursoID</td>
+                            <td>@item.AlumnoID</td>
+                            <td>@item.NotaExamen1</td>
+                            <td>@item.NotaRecuperatorio1</td>
+                            <td>@item.NotaExamen2</td>
+                            <td>@item.NotaRecuperatorio2</td>
+                            <td>@item.CantidadTrabajosPracticos</td>
+                            <td>@item.CantidadTrabajosEntregados</td>
+                             <td><a asp-action="modificarN" asp-controller = "Notas" asp-route-id="@item.ID" class="btn btn-warning me-md-2">Editar</a></td> 
+                            <td><a asp-action="Eliminar" asp-controller="Notas" asp-route-id="@item.ID" class="btn btn-danger me-md-2">Eliminar</a></td>   
+                        </tr> 
+                    }
+                
+
             </tbody>
         </table> 

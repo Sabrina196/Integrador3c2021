@@ -5,9 +5,9 @@ $(document).ready(function(){
        
     $(buscar).click(function(){
         $(tarjetas).empty();
-        var valor = $("#palabra").val();
-        var clave_api = "hVWHH8MFSCVtyZzesg6qEjwE5gaDE4FE";
-        var urlGif = `https://api.giphy.com/v1/gifs/search?q=${valor}&rating=g&api_key=${clave_api}`;
+        let valor = $("#palabra").val();
+        let clave_api = "hVWHH8MFSCVtyZzesg6qEjwE5gaDE4FE";
+        let urlGif = `https://api.giphy.com/v1/gifs/search?q=${valor}&rating=g&api_key=${clave_api}`;
         $.get(urlGif, (respuesta)=> {    
             
             for (let index = 0; index < respuesta.data.length; index++) {
@@ -29,3 +29,9 @@ $(document).ready(function(){
 
 
 });
+
+
+
+
+
+
